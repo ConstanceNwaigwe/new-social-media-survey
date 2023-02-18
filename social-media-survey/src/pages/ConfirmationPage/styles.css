@@ -1,0 +1,37 @@
+.confirmation_page {
+  background-color: darkslategray;
+  width: 100vw;
+  height: 100vh;
+  padding: 5px;
+}
+
+.confirmation_page_content {
+  max-width: 550px;
+  margin: 200px auto 0;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.confirmation_page_button button {
+  background-color: #04aa6d;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  width: 200px;
+}
+
+.confirmation_page_button {
+  margin: 50px auto;
+  width: 200px;
+}
+
+@media (max-width: 600px) {
+  .confirmation_page_content {
+    min-width: 200px;
+    border: none;
+  }
+}
