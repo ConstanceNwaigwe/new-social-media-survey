@@ -1,5 +1,6 @@
 import "./styles.css";
 import React from "react";
+import { Link } from "react-router-dom";
 
 function SurveyPage() {
   return (
@@ -10,19 +11,12 @@ function SurveyPage() {
           <p>Let us know your experience with social media.</p>
         </div>
         <div>
-          <form action="/confirmation" className="survey_page_form">
+          <form className="survey_page_form">
             <div className="survey_page_form_questions">
               <h4>Q1. How old are you?</h4>
               <div className="survey_page_form_answers survey_page_form_age">
                 <label for="age">Enter Age:</label>
-                <input
-                  type="number"
-                  min="1"
-                  max="130"
-                  name="age"
-                  id="age"
-                  required
-                />
+                <input type="number" min="1" max="130" name="age" id="age" />
               </div>
             </div>
             <div className="survey_page_form_questions">
@@ -187,8 +181,9 @@ function SurveyPage() {
               </div>
             </div>
             <div className="survey_page_form_submit_button">
-              {/* <input type="Submit" name="Submit" value="Submit" id="submit" /> */}
-              <button>Submit</button>
+              <Link to={"/confirmation"}>
+                <button>Submit</button>
+              </Link>
             </div>
           </form>
         </div>
