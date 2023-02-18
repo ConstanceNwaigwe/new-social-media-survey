@@ -1,2 +1,3 @@
 # new-social-media-survey
-![image](https://user-images.githubusercontent.com/46114181/219291891-359d0d45-c4f0-4b2a-9d66-7df4322c8415.png)
+![image](https://user-images.githubusercontent.com/46114181/219828675-a0c40d28-3d79-4db0-81ff-13281ff4a9ab.png)
+
