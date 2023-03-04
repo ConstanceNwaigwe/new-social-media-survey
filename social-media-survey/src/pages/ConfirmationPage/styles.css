@@ -1,16 +1,28 @@
 .confirmation_page {
-  background-color: darkslategray;
+  background-image: url("https://www.strategoweb.it/assets/blog_images/social.jpg");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100vw;
   height: 100vh;
   padding: 5px;
-}
-
-.confirmation_page_content {
+ }
+ 
+ 
+ .confirmation_page_content {
   max-width: 550px;
   margin: 200px auto 0;
   border: 1px solid black;
   text-align: center;
-}
+  background: linear-gradient(
+    90deg,
+    rgba(115, 14, 226, 1) 1%,
+    rgba(82, 252, 226, 1) 100%
+  );
+  border-radius: 16px;
+  padding: 10px;
+ }
+ 
 
 .confirmation_page_button button {
   background-color: #04aa6d;
