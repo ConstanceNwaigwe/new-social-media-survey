@@ -1,5 +1,5 @@
 # new-social-media-survey
-![image](https://user-images.githubusercontent.com/46114181/219828675-a0c40d28-3d79-4db0-81ff-13281ff4a9ab.png)
+![image](https://user-images.githubusercontent.com/46114181/222878818-06e15bfa-2a08-4207-b577-b0350fb23670.png)
 
 ### By:
 
