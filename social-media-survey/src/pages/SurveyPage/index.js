@@ -7,7 +7,7 @@ function SurveyPage() {
     <div className="survey_page">
       <div className="survey_page-container">
         <div className="survey_page_title">
-          <h1>The Social Medai Survey</h1>
+          <h1>The Social Media Survey</h1>
           <p>Let us know your experience with social media.</p>
         </div>
         <div>
